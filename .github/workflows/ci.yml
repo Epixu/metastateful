@@ -16,7 +16,7 @@ jobs:
 
         exclude:
           - os: ubuntu-24.04
-            cxx: v145
+            cxx: v143
           - os: ubuntu-24.04
             cxx: clangcl
           - os: windows-2022
