@@ -6,7 +6,7 @@ Enables compile-time reflection and other huge implications.
 
 Tested on GCC 14.2, GCC 16.2, Clang 21, Clang 22, MSVC v143. Surprisingly non-flaky.
 
-[![Langulus::Anyness CI](https://github.com/Epixu/metastateful/actions/workflows/ci.yml/badge.svg)](https://github.com/Epixu/metastateful/actions/workflows/ci.yml)
+[![Tests](https://github.com/Epixu/metastateful/actions/workflows/ci.yml/badge.svg)](https://github.com/Epixu/metastateful/actions/workflows/ci.yml)
 
 > [!WARNING]
 > Stateful metaprogramming is disputed in C++ standardization circles, and despite this being very stable at the moment, the future is uncertain.
