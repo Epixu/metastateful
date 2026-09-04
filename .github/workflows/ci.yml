@@ -1,4 +1,4 @@
-name: Langulus::Anyness CI
+name: Tests
 on: push
 concurrency:
   group: ${{ github.ref }}
