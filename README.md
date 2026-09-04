@@ -16,7 +16,7 @@ Tested on GCC 14.2, GCC 16.2, Clang 21, Clang 22, MSVC v143. Surprisingly non-fl
 --------
 
 > [!IMPORTANT]
-> Wrapping `FindMorphism` in a concept will negate the uniqueness of each call, as concepts are memoized (cached). If you plan on using concepts that check for conversion, make sure you have included all relevant morphism specializations before using the concept for the first time, or just stuck with directly calling `FindMorphism` wherever needed.
+> Wrapping `FindMorphism` in a concept will negate the uniqueness of each call, as concepts are memoized (cached). If you plan on using concepts that check for conversion, make sure you have included all relevant morphism specializations before using the concept for the first time, or just stick to directly calling `FindMorphism` wherever needed.
 
 You can fork and modify CI if you want to test on more configurations.
 
